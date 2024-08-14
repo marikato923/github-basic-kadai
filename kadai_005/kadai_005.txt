@@ -1,0 +1,25 @@
+PS C:\Users\麻里\Documents\samurai> cd C:\Users\麻里\Documents\samurai\test
+PS C:\Users\麻里\Documents\samurai\test> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\麻里\Documents\samurai\test
+
+Mode                 LastWriteTime         Length Name                                            
+----                 -------------         ------ ----                                            
+d-----        2024/08/14     16:09                git_challenge                                   
+
+PS C:\Users\麻里\Documents\samurai\test> cd git_challenge
+PS C:\Users\麻里\Documents\samurai\test\git_challenge> git init
+Initialized empty Git repository in C:/Users/麻里/Documents/SAMURAI/test/git_challenge/.git/      
+PS C:\Users\麻里\Documents\samurai\test\git_challenge> git add hello_world.txt
+PS C:\Users\麻里\Documents\samurai\test\git_challenge> git commit -m "hello_world.txtを追加"      
+[master (root-commit) 0a84395] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ PS C:\Users\麻里\Documents\samurai\test\git_challenge> git add hello_world.txt
+PS C:\Users\麻里\Documents\samurai\test\git_challenge> git commit -m "日本語訳を追記"
+[master 82adfec] 日本語訳を追記
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+PS C:\Users\麻里\Documents\samurai\test\git_challenge> git log --oneline
+82adfec (HEAD -> master) 日本語訳を追記
+0a84395 hello_world.txtを追加
+PS C:\Users\麻里\Documents\samurai\test\git_challenge> 
